@@ -11,43 +11,48 @@
     <header>
       <h1>Forms yay</h1>
     </header>
-
-    <form method="get">
-      <label for="name">
-        <input id="name" placeholder="Name" name="submitted-name" required />
-      </label>
-      <label for="password">
-        <input
-          name="password"
-          type="password"
-          placeholder="Password"
-          id="password"
-          minlength="8"
-          required
-        />
-      </label>
-      <label for="confirm-password">
-        <input
-          name="confirm-password"
-          type="password"
-          placeholder="Confirm Password"
-          id="confirm-password"
-          minlength="8"
-          required
-        />
-      </label>
-
-      <select name="city" id="city">
-        <option value="london">London</option>
-        <option value="ends">Ends</option>
-        <option value="idk">Idk</option>
-      </select>
-      <label for="t-and-c"
-        >Please agree to the T&Cs :)
-        <input type="checkbox" name="t-c" id="t-and-c" required />
-      </label>
-      <button class="save" type="submit">Save</button>
-      <button class="reset" type="reset">Reset</button>
-    </form>
+    <main>
+      <form method="get">
+        <label for="name">
+          <input id="name" placeholder="Name" name="submitted-name" required />
+        </label>
+        <label for="password">
+          <input
+            name="password"
+            type="password"
+            placeholder="Password"
+            id="password"
+            minlength="8"
+            required
+          />
+        </label>
+        <label for="confirm-password">
+          <input
+            name="confirm-password"
+            type="password"
+            placeholder="Confirm Password"
+            id="confirm-password"
+            minlength="8"
+            required
+          />
+        </label>
+        <label for="city">
+          Select your city:
+          <select name="city" id="city">
+            <option value="london">London</option>
+            <option value="ends">Ends</option>
+            <option value="idk">Idk</option>
+          </select>
+        </label>
+        <label for="t-and-c"
+          >Please agree to the T&Cs :)
+          <input type="checkbox" name="t-c" id="t-and-c" required />
+        </label>
+        <div class="buttons">
+          <button class="save" type="submit">Save</button>
+          <button class="reset" type="reset">Reset</button>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
