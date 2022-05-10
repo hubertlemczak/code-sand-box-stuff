@@ -12,7 +12,7 @@
       <h1>Forms yay</h1>
     </header>
     <main>
-      <form method="get">
+      <form>
         <label for="name">
           <input id="name" placeholder="Name" name="submitted-name" required />
         </label>
@@ -43,6 +43,69 @@
             <option value="ends">Ends</option>
             <option value="idk">Idk</option>
           </select>
+        </label>
+        <label for="dob">
+          D.O.B.
+          <input type="date" name="dob" id="dob" required />
+        </label>
+        <div>
+          <label for="radio"
+            ><input
+              type="radio"
+              name="radio"
+              id="radio"
+              value="123s"
+              required
+            />Radio</label
+          >
+          <label for="cool"
+            ><input
+              type="radio"
+              name="radio"
+              id="cool"
+              value="cool"
+              required
+            />Cool</label
+          >
+          <label for="form"
+            ><input
+              type="radio"
+              name="radio"
+              id="form"
+              value="form"
+              required
+            />Form</label
+          >
+          <label for="stuff"
+            ><input
+              type="radio"
+              name="radio"
+              id="stuff"
+              value="stuff"
+              required
+            />Stuff</label
+          >
+        </div>
+        <label for="phone"
+          >Phone No.
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{11}"
+            required
+          />
+        </label>
+        <label for="coolform"
+          >How cool is this form?
+          <input
+            type="range"
+            name="coolform"
+            min="0"
+            max="10"
+            id="coolform"
+            value="9"
+          />
         </label>
         <label for="t-and-c"
           >Please agree to the T&Cs :)
