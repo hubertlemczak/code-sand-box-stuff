@@ -1,0 +1,10 @@
+.save {
+  background-color: rgb(8, 255, 25);
+  border-radius: 50%;
+  height: 46.39px;
+}
+.reset {
+  background-color: rgb(255, 0, 0);
+  height: 50.83px;
+  /* color: white; */
+}
