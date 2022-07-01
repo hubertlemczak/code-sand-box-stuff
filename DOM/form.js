@@ -7,3 +7,7 @@ foodForm.addEventListener('submit', (e) => {
   ul.append(listItem);
   foodForm.reset();
 });
+
+foodForm.addEventListener('submit', () => {
+  console.log('hii');
+});
