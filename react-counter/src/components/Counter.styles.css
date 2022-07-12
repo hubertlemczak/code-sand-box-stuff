@@ -1,0 +1,24 @@
+.counter {
+  border: 4px solid white;
+  border-radius: 5px;
+  padding: 200px;
+  font-size: 10rem;
+}
+
+.counter__number {
+  text-align: center;
+  font-size: 5rem;
+  height: 200px;
+}
+
+.counter__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.counter__decrementer,
+.counter__decrementer {
+  cursor: pointer;
+}
